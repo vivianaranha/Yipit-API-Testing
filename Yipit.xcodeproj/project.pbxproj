@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BCEE2AA137B448200AF204F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCEE2A9137B448200AF204F /* UIKit.framework */; };
+		6BCEE2AC137B448200AF204F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCEE2AB137B448200AF204F /* Foundation.framework */; };
+		6BCEE2AE137B448200AF204F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCEE2AD137B448200AF204F /* CoreGraphics.framework */; };
+		6BCEE2B4137B448200AF204F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEE2B2137B448200AF204F /* InfoPlist.strings */; };
+		6BCEE2B7137B448200AF204F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2B6137B448200AF204F /* main.m */; };
+		6BCEE2BA137B448200AF204F /* YipitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2B9137B448200AF204F /* YipitAppDelegate.m */; };
+		6BCEE2BD137B448300AF204F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEE2BB137B448300AF204F /* MainWindow.xib */; };
+		6BCEE2E5137B452B00AF204F /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2DA137B452B00AF204F /* NSObject+SBJSON.m */; };
+		6BCEE2E6137B452B00AF204F /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2DC137B452B00AF204F /* NSString+SBJSON.m */; };
+		6BCEE2E7137B452B00AF204F /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2DE137B452B00AF204F /* SBJSON.m */; };
+		6BCEE2E8137B452B00AF204F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2E0137B452B00AF204F /* SBJsonBase.m */; };
+		6BCEE2E9137B452B00AF204F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2E2137B452B00AF204F /* SBJsonParser.m */; };
+		6BCEE2EA137B452B00AF204F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2E4137B452B00AF204F /* SBJsonWriter.m */; };
+		6BCEE2ED137B454300AF204F /* DealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE2EC137B454300AF204F /* DealsViewController.m */; };
+		6BCEE2EF137B460A00AF204F /* yipit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BCEE2EE137B460A00AF204F /* yipit.plist */; };
+		6BCEE302137B580900AF204F /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE301137B580900AF204F /* CustomTableCell.m */; };
+		6BCEE305137B5F8600AF204F /* WebDealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEE304137B5F8500AF204F /* WebDealViewController.m */; };
+		6BD70A6E14366AC80086F945 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD70A6D14366AC80086F945 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BCEE2A5137B448200AF204F /* Yipit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yipit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCEE2A9137B448200AF204F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BCEE2AB137B448200AF204F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BCEE2AD137B448200AF204F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BCEE2B1137B448200AF204F /* Yipit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yipit-Info.plist"; sourceTree = "<group>"; };
+		6BCEE2B3137B448200AF204F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BCEE2B5137B448200AF204F /* Yipit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yipit-Prefix.pch"; sourceTree = "<group>"; };
+		6BCEE2B6137B448200AF204F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BCEE2B8137B448200AF204F /* YipitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YipitAppDelegate.h; sourceTree = "<group>"; };
+		6BCEE2B9137B448200AF204F /* YipitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YipitAppDelegate.m; sourceTree = "<group>"; };
+		6BCEE2BC137B448300AF204F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6BCEE2D8137B452B00AF204F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		6BCEE2D9137B452B00AF204F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		6BCEE2DA137B452B00AF204F /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		6BCEE2DB137B452B00AF204F /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		6BCEE2DC137B452B00AF204F /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		6BCEE2DD137B452B00AF204F /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		6BCEE2DE137B452B00AF204F /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		6BCEE2DF137B452B00AF204F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		6BCEE2E0137B452B00AF204F /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		6BCEE2E1137B452B00AF204F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		6BCEE2E2137B452B00AF204F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		6BCEE2E3137B452B00AF204F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		6BCEE2E4137B452B00AF204F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		6BCEE2EB137B454200AF204F /* DealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealsViewController.h; sourceTree = "<group>"; };
+		6BCEE2EC137B454300AF204F /* DealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealsViewController.m; sourceTree = "<group>"; };
+		6BCEE2EE137B460A00AF204F /* yipit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = yipit.plist; sourceTree = "<group>"; };
+		6BCEE300137B580900AF204F /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		6BCEE301137B580900AF204F /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		6BCEE303137B5F8400AF204F /* WebDealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDealViewController.h; sourceTree = "<group>"; };
+		6BCEE304137B5F8500AF204F /* WebDealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebDealViewController.m; sourceTree = "<group>"; };
+		6BD70A6D14366AC80086F945 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCEE2A2137B448200AF204F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCEE2AA137B448200AF204F /* UIKit.framework in Frameworks */,
+				6BCEE2AC137B448200AF204F /* Foundation.framework in Frameworks */,
+				6BCEE2AE137B448200AF204F /* CoreGraphics.framework in Frameworks */,
+				6BD70A6E14366AC80086F945 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BCEE29A137B448200AF204F = {
+			isa = PBXGroup;
+			children = (
+				6BCEE2AF137B448200AF204F /* Yipit */,
+				6BCEE2A8137B448200AF204F /* Frameworks */,
+				6BCEE2A6137B448200AF204F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCEE2A6137B448200AF204F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEE2A5137B448200AF204F /* Yipit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BCEE2A8137B448200AF204F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD70A6D14366AC80086F945 /* CoreLocation.framework */,
+				6BCEE2A9137B448200AF204F /* UIKit.framework */,
+				6BCEE2AB137B448200AF204F /* Foundation.framework */,
+				6BCEE2AD137B448200AF204F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BCEE2AF137B448200AF204F /* Yipit */ = {
+			isa = PBXGroup;
+			children = (
+				6BD70A7214366AF30086F945 /* WebView */,
+				6BD70A7114366AE70086F945 /* Deals */,
+				6BD70A7014366ACE0086F945 /* AppDelegate */,
+				6BCEE2B0137B448200AF204F /* Supporting Files */,
+			);
+			path = Yipit;
+			sourceTree = "<group>";
+		};
+		6BCEE2B0137B448200AF204F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEE2D7137B452B00AF204F /* JSON */,
+				6BCEE2B1137B448200AF204F /* Yipit-Info.plist */,
+				6BCEE2B2137B448200AF204F /* InfoPlist.strings */,
+				6BCEE2B5137B448200AF204F /* Yipit-Prefix.pch */,
+				6BCEE2B6137B448200AF204F /* main.m */,
+				6BCEE2EE137B460A00AF204F /* yipit.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BCEE2D7137B452B00AF204F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEE2D8137B452B00AF204F /* JSON.h */,
+				6BCEE2D9137B452B00AF204F /* NSObject+SBJSON.h */,
+				6BCEE2DA137B452B00AF204F /* NSObject+SBJSON.m */,
+				6BCEE2DB137B452B00AF204F /* NSString+SBJSON.h */,
+				6BCEE2DC137B452B00AF204F /* NSString+SBJSON.m */,
+				6BCEE2DD137B452B00AF204F /* SBJSON.h */,
+				6BCEE2DE137B452B00AF204F /* SBJSON.m */,
+				6BCEE2DF137B452B00AF204F /* SBJsonBase.h */,
+				6BCEE2E0137B452B00AF204F /* SBJsonBase.m */,
+				6BCEE2E1137B452B00AF204F /* SBJsonParser.h */,
+				6BCEE2E2137B452B00AF204F /* SBJsonParser.m */,
+				6BCEE2E3137B452B00AF204F /* SBJsonWriter.h */,
+				6BCEE2E4137B452B00AF204F /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		6BD70A7014366ACE0086F945 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEE2B8137B448200AF204F /* YipitAppDelegate.h */,
+				6BCEE2B9137B448200AF204F /* YipitAppDelegate.m */,
+				6BCEE2BB137B448300AF204F /* MainWindow.xib */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6BD70A7114366AE70086F945 /* Deals */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEE2EB137B454200AF204F /* DealsViewController.h */,
+				6BCEE2EC137B454300AF204F /* DealsViewController.m */,
+				6BCEE300137B580900AF204F /* CustomTableCell.h */,
+				6BCEE301137B580900AF204F /* CustomTableCell.m */,
+			);
+			name = Deals;
+			sourceTree = "<group>";
+		};
+		6BD70A7214366AF30086F945 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEE303137B5F8400AF204F /* WebDealViewController.h */,
+				6BCEE304137B5F8500AF204F /* WebDealViewController.m */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCEE2A4137B448200AF204F /* Yipit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCEE2C0137B448300AF204F /* Build configuration list for PBXNativeTarget "Yipit" */;
+			buildPhases = (
+				6BCEE2A1137B448200AF204F /* Sources */,
+				6BCEE2A2137B448200AF204F /* Frameworks */,
+				6BCEE2A3137B448200AF204F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yipit;
+			productName = Yipit;
+			productReference = 6BCEE2A5137B448200AF204F /* Yipit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCEE29C137B448200AF204F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Self;
+			};
+			buildConfigurationList = 6BCEE29F137B448200AF204F /* Build configuration list for PBXProject "Yipit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BCEE29A137B448200AF204F;
+			productRefGroup = 6BCEE2A6137B448200AF204F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCEE2A4137B448200AF204F /* Yipit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCEE2A3137B448200AF204F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCEE2B4137B448200AF204F /* InfoPlist.strings in Resources */,
+				6BCEE2BD137B448300AF204F /* MainWindow.xib in Resources */,
+				6BCEE2EF137B460A00AF204F /* yipit.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCEE2A1137B448200AF204F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCEE2B7137B448200AF204F /* main.m in Sources */,
+				6BCEE2BA137B448200AF204F /* YipitAppDelegate.m in Sources */,
+				6BCEE2E5137B452B00AF204F /* NSObject+SBJSON.m in Sources */,
+				6BCEE2E6137B452B00AF204F /* NSString+SBJSON.m in Sources */,
+				6BCEE2E7137B452B00AF204F /* SBJSON.m in Sources */,
+				6BCEE2E8137B452B00AF204F /* SBJsonBase.m in Sources */,
+				6BCEE2E9137B452B00AF204F /* SBJsonParser.m in Sources */,
+				6BCEE2EA137B452B00AF204F /* SBJsonWriter.m in Sources */,
+				6BCEE2ED137B454300AF204F /* DealsViewController.m in Sources */,
+				6BCEE302137B580900AF204F /* CustomTableCell.m in Sources */,
+				6BCEE305137B5F8600AF204F /* WebDealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BCEE2B2137B448200AF204F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCEE2B3137B448200AF204F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BCEE2BB137B448300AF204F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCEE2BC137B448300AF204F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BCEE2BE137B448300AF204F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BCEE2BF137B448300AF204F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6BCEE2C1137B448300AF204F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yipit/Yipit-Prefix.pch";
+				INFOPLIST_FILE = "Yipit/Yipit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BCEE2C2137B448300AF204F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yipit/Yipit-Prefix.pch";
+				INFOPLIST_FILE = "Yipit/Yipit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BCEE306137B63C500AF204F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Remote Tiger, Inc";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7482C328-C503-499C-88D5-3B90EB5A26BC";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		6BCEE307137B63C500AF204F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yipit/Yipit-Prefix.pch";
+				INFOPLIST_FILE = "Yipit/Yipit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCEE29F137B448200AF204F /* Build configuration list for PBXProject "Yipit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCEE2BE137B448300AF204F /* Debug */,
+				6BCEE2BF137B448300AF204F /* Release */,
+				6BCEE306137B63C500AF204F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCEE2C0137B448300AF204F /* Build configuration list for PBXNativeTarget "Yipit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCEE2C1137B448300AF204F /* Debug */,
+				6BCEE2C2137B448300AF204F /* Release */,
+				6BCEE307137B63C500AF204F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BCEE29C137B448200AF204F /* Project object */;
+}
